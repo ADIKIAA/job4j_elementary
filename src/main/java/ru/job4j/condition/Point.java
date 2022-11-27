@@ -1,4 +1,4 @@
-package ru.job4j.calculator.condition;
+package ru.job4j.condition;
 
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
@@ -7,7 +7,7 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        double result = Point.distance(0, 0, 2, 0);
+        double result = Point.distance(0, 6, 4, 5);
         System.out.println("distance (0, 0) to (2, 0) " + result);
     }
 }
