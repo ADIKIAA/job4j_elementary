@@ -23,7 +23,7 @@ public class DummyBotTest {
 
     @Test
     public void  whenUnknownBot() {
-        String in = "Can you dad two plus two?";
+        String in = "Can you add two plus two?";
         String result = DummyBot.answer(in);
         String expected = "I don't know. Please, ask another question.";
         assertThat(result).isEqualTo(expected);
